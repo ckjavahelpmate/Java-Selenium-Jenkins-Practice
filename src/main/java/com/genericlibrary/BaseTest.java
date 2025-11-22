@@ -26,7 +26,9 @@ public class BaseTest {
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "/drivers/msedgedriver.exe");
 			driver = new EdgeDriver();
+			
 		} else {
 			throw new IllegalArgumentException("Unsupported browser: " + browser);
 		}
