@@ -9,8 +9,13 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
+import com.utilities.DriverManager;
+import com.utilities.MyListerners;
+
+@Listeners(MyListerners.class)
 public class BaseTest {
 	protected WebDriver driver;
 

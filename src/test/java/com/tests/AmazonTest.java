@@ -11,7 +11,7 @@ public class AmazonTest extends BaseTest {
 	{
 		driver.get("https://www.amazon.com");
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

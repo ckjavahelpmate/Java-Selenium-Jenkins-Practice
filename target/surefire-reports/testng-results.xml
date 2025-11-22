@@ -2,83 +2,83 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T19:29:41 IST" name="Surefire suite" finished-at="2025-11-22T19:29:52 IST" duration-ms="10345">
+  <suite started-at="2025-11-22T20:23:36 IST" name="Surefire suite" finished-at="2025-11-22T20:23:57 IST" duration-ms="21098">
     <groups>
+      <group name="ShopRegression">
+        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
+        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
+        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
+      </group> <!-- ShopRegression -->
       <group name="Regression">
-        <method signature="FacebookTest.facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" name="facebookLaunchTest" class="com.tests.FacebookTest"/>
-        <method signature="GoogleTest.googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@3daa422a]" name="googleLaunchTest" class="com.tests.GoogleTest"/>
-        <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
+        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
+        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
+        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
       </group> <!-- Regression -->
-      <group name="SocialRegression">
-        <method signature="FacebookTest.facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" name="facebookLaunchTest" class="com.tests.FacebookTest"/>
-        <method signature="GoogleTest.googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@3daa422a]" name="googleLaunchTest" class="com.tests.GoogleTest"/>
-        <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
-      </group> <!-- SocialRegression -->
     </groups>
-    <test started-at="2025-11-22T19:29:41 IST" name="Surefire test" finished-at="2025-11-22T19:29:52 IST" duration-ms="10345">
-      <class name="com.tests.FacebookTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3068" status="PASS">
+    <test started-at="2025-11-22T20:23:36 IST" name="Surefire test" finished-at="2025-11-22T20:23:57 IST" duration-ms="21098">
+      <class name="com.tests.FlipkartTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:41 IST" duration-ms="4875" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:45 IST" name="facebookLaunchTest" finished-at="2025-11-22T19:29:49 IST" duration-ms="4592" status="PASS">
+        <test-method signature="flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:41 IST" name="flipkartLaunchTest" finished-at="2025-11-22T20:23:46 IST" duration-ms="4451" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- facebookLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:49 IST" name="tearDown" finished-at="2025-11-22T19:29:50 IST" duration-ms="910" status="PASS">
+        </test-method> <!-- flipkartLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:46 IST" name="tearDown" finished-at="2025-11-22T20:23:50 IST" duration-ms="3871" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tests.FacebookTest -->
-      <class name="com.tests.YoutubeTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3223" status="PASS">
+      </class> <!-- com.tests.FlipkartTest -->
+      <class name="com.tests.AmazonTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:53 IST" duration-ms="17009" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:45 IST" name="youtubeLaunchTest" finished-at="2025-11-22T19:29:49 IST" duration-ms="4502" status="PASS">
+        <test-method signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:53 IST" name="amazonLaunchTest" finished-at="2025-11-22T20:23:56 IST" duration-ms="3004" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- youtubeLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:49 IST" name="tearDown" finished-at="2025-11-22T19:29:52 IST" duration-ms="2535" status="PASS">
+        </test-method> <!-- amazonLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:56 IST" name="tearDown" finished-at="2025-11-22T20:23:57 IST" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tests.YoutubeTest -->
-      <class name="com.tests.GoogleTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3086" status="PASS">
+      </class> <!-- com.tests.AmazonTest -->
+      <class name="com.tests.MyntraTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:44 IST" duration-ms="7789" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:45 IST" name="googleLaunchTest" finished-at="2025-11-22T19:29:51 IST" duration-ms="6110" status="PASS">
+        <test-method signature="myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:44 IST" name="myntraLaunchTest" finished-at="2025-11-22T20:23:50 IST" duration-ms="6027" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:51 IST" name="tearDown" finished-at="2025-11-22T19:29:51 IST" duration-ms="430" status="PASS">
+        </test-method> <!-- myntraLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:50 IST" name="tearDown" finished-at="2025-11-22T20:23:52 IST" duration-ms="1982" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tests.GoogleTest -->
+      </class> <!-- com.tests.MyntraTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>

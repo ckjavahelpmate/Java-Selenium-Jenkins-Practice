@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="Suite">
-	<test name="Test">
+<suite name="Dummisuite">
+	<test name="DummiTest">
 		<groups>
 			<run>
 				<include name="SocialRegression" />

@@ -1,4 +1,4 @@
-package com.genericlibrary;
+package com.utilities;
 
 import org.openqa.selenium.WebDriver;
 

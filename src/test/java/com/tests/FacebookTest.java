@@ -11,7 +11,7 @@ public class FacebookTest extends BaseTest {
 	{
 		driver.get("https://www.facebook.com");
 		try {
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

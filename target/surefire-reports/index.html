@@ -103,17 +103,17 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.FacebookTest" class="method navigator-link" hash-for-method="facebookLaunchTest">facebookLaunchTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.AmazonTest" class="method navigator-link" hash-for-method="amazonLaunchTest">amazonLaunchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.GoogleTest" class="method navigator-link" hash-for-method="googleLaunchTest">googleLaunchTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.FlipkartTest" class="method navigator-link" hash-for-method="flipkartLaunchTest">flipkartLaunchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.YoutubeTest" class="method navigator-link" hash-for-method="youtubeLaunchTest">youtubeLaunchTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tests.MyntraTest" class="method navigator-link" hash-for-method="myntraLaunchTest">myntraLaunchTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -131,14 +131,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.tests.FacebookTest</span>
+              <span class="class-name">com.tests.MyntraTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="facebookLaunchTest">
-                  </a> <!-- facebookLaunchTest -->
-                  <span class="method-name">facebookLaunchTest</span>
+                  <a name="myntraLaunchTest">
+                  </a> <!-- myntraLaunchTest -->
+                  <span class="method-name">myntraLaunchTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -146,14 +146,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.tests.GoogleTest</span>
+              <span class="class-name">com.tests.AmazonTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="googleLaunchTest">
-                  </a> <!-- googleLaunchTest -->
-                  <span class="method-name">googleLaunchTest</span>
+                  <a name="amazonLaunchTest">
+                  </a> <!-- amazonLaunchTest -->
+                  <span class="method-name">amazonLaunchTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -161,14 +161,14 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.tests.YoutubeTest</span>
+              <span class="class-name">com.tests.FlipkartTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="youtubeLaunchTest">
-                  </a> <!-- youtubeLaunchTest -->
-                  <span class="method-name">youtubeLaunchTest</span>
+                  <a name="flipkartLaunchTest">
+                  </a> <!-- flipkartLaunchTest -->
+                  <span class="method-name">flipkartLaunchTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,18 +181,18 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;classes&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;exclude name=&quot;ShopRegression&quot;/&gt;
+      &lt;include name=&quot;ShopRegression&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;exclude name=&quot;ShopRegression&quot;/&gt;
+      &lt;include name=&quot;ShopRegression&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;method-selectors&gt;
       &lt;method-selector&gt;
         &lt;selector-class name=&quot;org.apache.maven.surefire.testng.utils.GroupMatcherMethodSelector&quot; priority=&quot;9999&quot;/&gt;
@@ -232,31 +232,31 @@
               <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">facebookLaunchTest</span>
+                <span class="method-in-group-name">amazonLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">googleLaunchTest</span>
+                <span class="method-in-group-name">flipkartLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">youtubeLaunchTest</span>
+                <span class="method-in-group-name">myntraLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">SocialRegression</span>
+              <span class="test-group-name">ShopRegression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">facebookLaunchTest</span>
+                <span class="method-in-group-name">amazonLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">googleLaunchTest</span>
+                <span class="method-in-group-name">flipkartLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">youtubeLaunchTest</span>
+                <span class="method-in-group-name">myntraLaunchTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -278,22 +278,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'googleLaunchTest')
-data.setCell(0, 2, 'com.tests.GoogleTest')
-data.setCell(0, 3, 6110);
+data.setCell(0, 1, 'myntraLaunchTest')
+data.setCell(0, 2, 'com.tests.MyntraTest')
+data.setCell(0, 3, 6027);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'facebookLaunchTest')
-data.setCell(1, 2, 'com.tests.FacebookTest')
-data.setCell(1, 3, 4592);
+data.setCell(1, 1, 'flipkartLaunchTest')
+data.setCell(1, 2, 'com.tests.FlipkartTest')
+data.setCell(1, 3, 4451);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'youtubeLaunchTest')
-data.setCell(2, 2, 'com.tests.YoutubeTest')
-data.setCell(2, 3, 4502);
+data.setCell(2, 1, 'amazonLaunchTest')
+data.setCell(2, 2, 'com.tests.AmazonTest')
+data.setCell(2, 3, 3004);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -312,23 +312,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.tests.MyntraTest</span>
+              <span class="ignored-class-name">com.tests.FacebookTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">myntraLaunchTest</span>
+                <span class="ignored-method-name">facebookLaunchTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.tests.AmazonTest</span>
+              <span class="ignored-class-name">com.tests.GoogleTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">amazonLaunchTest</span>
+                <span class="ignored-method-name">googleLaunchTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">com.tests.FlipkartTest</span>
+              <span class="ignored-class-name">com.tests.YoutubeTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">flipkartLaunchTest</span>
+                <span class="ignored-method-name">youtubeLaunchTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -340,63 +340,63 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.YoutubeTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.AmazonTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">launchBrowser(edge)</span>
+                <span class="method-name">launchBrowser(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.FacebookTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.FlipkartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">launchBrowser(edge)</span>
+                <span class="method-name">launchBrowser(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.GoogleTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.MyntraTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">launchBrowser(edge)</span>
+                <span class="method-name">launchBrowser(firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.FacebookTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.FlipkartTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">facebookLaunchTest</span>
-                <span class="method-start">3141 ms</span>
+                <span class="method-name">flipkartLaunchTest</span>
+                <span class="method-start">4890 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.GoogleTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.MyntraTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">googleLaunchTest</span>
-                <span class="method-start">3143 ms</span>
+                <span class="method-name">myntraLaunchTest</span>
+                <span class="method-start">7789 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.YoutubeTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">youtubeLaunchTest</span>
-                <span class="method-start">3225 ms</span>
-              </div> <!-- test-method -->
+              <div class="chronological-class-name">com.tests.FlipkartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7779 ms</span>
+                <span class="method-start">9493 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.FacebookTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.MyntraTest</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">7796 ms</span>
+                <span class="method-start">13819 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.tests.GoogleTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.tests.AmazonTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">amazonLaunchTest</span>
+                <span class="method-start">17011 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9253 ms</span>
+                <span class="method-start">20015 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
