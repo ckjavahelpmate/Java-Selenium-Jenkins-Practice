@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T19:13:33 IST" name="Surefire suite" finished-at="2025-11-22T19:13:47 IST" duration-ms="13638">
+  <suite started-at="2025-11-22T19:29:41 IST" name="Surefire suite" finished-at="2025-11-22T19:29:52 IST" duration-ms="10345">
     <groups>
       <group name="Regression">
         <method signature="FacebookTest.facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" name="facebookLaunchTest" class="com.tests.FacebookTest"/>
@@ -15,9 +15,9 @@
         <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
       </group> <!-- SocialRegression -->
     </groups>
-    <test started-at="2025-11-22T19:13:33 IST" name="Surefire test" finished-at="2025-11-22T19:13:47 IST" duration-ms="13638">
+    <test started-at="2025-11-22T19:29:41 IST" name="Surefire test" finished-at="2025-11-22T19:29:52 IST" duration-ms="10345">
       <class name="com.tests.FacebookTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:13:33 IST" name="launchBrowser" finished-at="2025-11-22T19:13:37 IST" duration-ms="3504" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3068" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,17 +28,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:13:37 IST" name="facebookLaunchTest" finished-at="2025-11-22T19:13:42 IST" duration-ms="4818" status="PASS">
+        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:45 IST" name="facebookLaunchTest" finished-at="2025-11-22T19:29:49 IST" duration-ms="4592" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:13:42 IST" name="tearDown" finished-at="2025-11-22T19:13:43 IST" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@39529185]" started-at="2025-11-22T19:29:49 IST" name="tearDown" finished-at="2025-11-22T19:29:50 IST" duration-ms="910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.FacebookTest -->
       <class name="com.tests.YoutubeTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:13:33 IST" name="launchBrowser" finished-at="2025-11-22T19:13:37 IST" duration-ms="3276" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,17 +49,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:13:37 IST" name="youtubeLaunchTest" finished-at="2025-11-22T19:13:47 IST" duration-ms="9984" status="PASS">
+        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:45 IST" name="youtubeLaunchTest" finished-at="2025-11-22T19:29:49 IST" duration-ms="4502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- youtubeLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:13:47 IST" name="tearDown" finished-at="2025-11-22T19:13:47 IST" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@1cbbffcd]" started-at="2025-11-22T19:29:49 IST" name="tearDown" finished-at="2025-11-22T19:29:52 IST" duration-ms="2535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.YoutubeTest -->
       <class name="com.tests.GoogleTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:13:33 IST" name="launchBrowser" finished-at="2025-11-22T19:13:37 IST" duration-ms="3532" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:42 IST" name="launchBrowser" finished-at="2025-11-22T19:29:45 IST" duration-ms="3086" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -70,11 +70,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:13:37 IST" name="googleLaunchTest" finished-at="2025-11-22T19:13:43 IST" duration-ms="6250" status="PASS">
+        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:45 IST" name="googleLaunchTest" finished-at="2025-11-22T19:29:51 IST" duration-ms="6110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:13:43 IST" name="tearDown" finished-at="2025-11-22T19:13:44 IST" duration-ms="492" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@3daa422a]" started-at="2025-11-22T19:29:51 IST" name="tearDown" finished-at="2025-11-22T19:29:51 IST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

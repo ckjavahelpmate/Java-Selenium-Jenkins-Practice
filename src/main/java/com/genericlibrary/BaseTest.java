@@ -5,12 +5,11 @@ import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	protected WebDriver driver;
@@ -27,8 +26,11 @@ public class BaseTest {
 			driver = new FirefoxDriver();
 		} else if (browser.equalsIgnoreCase("edge")) {
 			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "/drivers/msedgedriver.exe");
-			driver = new EdgeDriver();
-			
+			EdgeOptions options = new EdgeOptions();
+			options.addArguments("--headless=new"); // for Edge v112+
+			options.addArguments("--disable-gpu");
+			driver = new EdgeDriver(options);
+
 		} else {
 			throw new IllegalArgumentException("Unsupported browser: " + browser);
 		}
