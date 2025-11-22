@@ -18,7 +18,8 @@ import com.listeners.EventListener;
 import com.utilities.DriverManager;
 
 @Listeners(EventListener.class)
-public class BaseTest {
+public class BaseTest 
+{
 	protected WebDriver driver;
 
 	@Parameters({ "browser" })

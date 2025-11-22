@@ -27,13 +27,14 @@ public class EventListener implements ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		ExtentReportManager.getTest().log(Status.PASS, result.getMethod().getMethodName() + " is Passed")
 				.addScreenCaptureFromPath(ScreenshotManager.takeScreenshot(result.getMethod().getMethodName()));
-
+		ExtentReportManager.logTestExecutionTime(System.currentTimeMillis());
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		ExtentReportManager.getTest().log(Status.FAIL, result.getThrowable())
 				.addScreenCaptureFromPath(ScreenshotManager.takeScreenshot(result.getMethod().getMethodName()));
+		ExtentReportManager.logTestExecutionTime(System.currentTimeMillis());
 	}
 
 	@Override

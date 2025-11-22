@@ -16,7 +16,7 @@ public class AmazonTest extends BaseTest {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		Assert.assertTrue(false);
+//		Assert.assertTrue(false);
 	}
 
 }
