@@ -12,7 +12,7 @@ public class ExtentReportManager {
 
 	public static ExtentReports getExtentReport() {
 		if (extentReport == null) {
-			ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter("test-output/ExtentReport.html");
+			ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter("./test-output/ExtentReport.html");
 			extentSparkReporter.config().setDocumentTitle("Java Selenium Jenkin Practice - Automation");
 			extentSparkReporter.config().setReportName("CK");
 			extentSparkReporter.config().setTheme(Theme.DARK);

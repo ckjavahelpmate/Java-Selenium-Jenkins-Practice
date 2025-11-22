@@ -2,7 +2,7 @@
 <testng-results retried="3" ignored="3" total="12" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T22:25:54 IST" name="Surefire suite" finished-at="2025-11-22T22:26:25 IST" duration-ms="30521">
+  <suite started-at="2025-11-22T23:07:02 IST" name="Surefire suite" finished-at="2025-11-22T23:07:50 IST" duration-ms="48255">
     <groups>
       <group name="ShopRegression">
         <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
@@ -23,9 +23,9 @@
         <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
       </group> <!-- SocialRegression -->
     </groups>
-    <test started-at="2025-11-22T22:25:54 IST" name="Surefire test" finished-at="2025-11-22T22:26:25 IST" duration-ms="30521">
+    <test started-at="2025-11-22T23:07:02 IST" name="Surefire test" finished-at="2025-11-22T23:07:50 IST" duration-ms="48255">
       <class name="com.tests.FlipkartTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5147" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T23:07:02 IST" name="launchBrowser" finished-at="2025-11-22T23:07:10 IST" duration-ms="8515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,17 +36,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:26:00 IST" name="flipkartLaunchTest" finished-at="2025-11-22T22:26:03 IST" duration-ms="2798" status="PASS">
+        <test-method signature="flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T23:07:10 IST" name="flipkartLaunchTest" finished-at="2025-11-22T23:07:13 IST" duration-ms="2979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkartLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:26:04 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="1754" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T23:07:19 IST" name="tearDown" finished-at="2025-11-22T23:07:20 IST" duration-ms="1420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.FlipkartTest -->
       <class name="com.tests.FacebookTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5693" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T23:07:02 IST" name="launchBrowser" finished-at="2025-11-22T23:07:10 IST" duration-ms="8292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,17 +57,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:26:00 IST" name="facebookLaunchTest" finished-at="2025-11-22T22:26:08 IST" duration-ms="7344" status="PASS">
+        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T23:07:10 IST" name="facebookLaunchTest" finished-at="2025-11-22T23:07:15 IST" duration-ms="5191" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- facebookLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:26:08 IST" name="tearDown" finished-at="2025-11-22T22:26:09 IST" duration-ms="1308" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T23:07:16 IST" name="tearDown" finished-at="2025-11-22T23:07:20 IST" duration-ms="3935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.FacebookTest -->
       <class name="com.tests.AmazonTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5693" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:02 IST" name="launchBrowser" finished-at="2025-11-22T23:07:16 IST" duration-ms="13597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +78,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:00 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:05 IST" duration-ms="4255" status="SKIP">
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:16 IST" name="amazonLaunchTest" finished-at="2025-11-22T23:07:19 IST" duration-ms="2995" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -114,11 +114,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:05 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="1522" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:19 IST" name="tearDown" finished-at="2025-11-22T23:07:20 IST" duration-ms="1405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:06 IST" name="launchBrowser" finished-at="2025-11-22T22:26:10 IST" duration-ms="3937" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:20 IST" name="launchBrowser" finished-at="2025-11-22T23:07:26 IST" duration-ms="6396" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -129,7 +129,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:10 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:14 IST" duration-ms="3642" status="SKIP">
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:26 IST" name="amazonLaunchTest" finished-at="2025-11-22T23:07:29 IST" duration-ms="2762" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -165,11 +165,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:14 IST" name="tearDown" finished-at="2025-11-22T22:26:14 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:29 IST" name="tearDown" finished-at="2025-11-22T23:07:31 IST" duration-ms="2132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:14 IST" name="launchBrowser" finished-at="2025-11-22T22:26:16 IST" duration-ms="2392" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:31 IST" name="launchBrowser" finished-at="2025-11-22T23:07:37 IST" duration-ms="5808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,7 +180,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:16 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:19 IST" duration-ms="3036" status="SKIP">
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:37 IST" name="amazonLaunchTest" finished-at="2025-11-22T23:07:41 IST" duration-ms="3838" status="SKIP">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -216,11 +216,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:19 IST" name="tearDown" finished-at="2025-11-22T22:26:19 IST" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:41 IST" name="tearDown" finished-at="2025-11-22T23:07:41 IST" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:19 IST" name="launchBrowser" finished-at="2025-11-22T22:26:22 IST" duration-ms="2163" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:41 IST" name="launchBrowser" finished-at="2025-11-22T23:07:46 IST" duration-ms="5149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -231,7 +231,7 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:22 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:25 IST" duration-ms="2998" status="FAIL">
+        <test-method signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:46 IST" name="amazonLaunchTest" finished-at="2025-11-22T23:07:49 IST" duration-ms="2968" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -267,13 +267,13 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:25 IST" name="tearDown" finished-at="2025-11-22T22:26:25 IST" duration-ms="169" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T23:07:50 IST" name="tearDown" finished-at="2025-11-22T23:07:50 IST" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.AmazonTest -->
       <class name="com.tests.YoutubeTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:06 IST" name="launchBrowser" finished-at="2025-11-22T22:26:10 IST" duration-ms="3622" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T23:07:20 IST" name="launchBrowser" finished-at="2025-11-22T23:07:27 IST" duration-ms="7051" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -284,17 +284,17 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:10 IST" name="youtubeLaunchTest" finished-at="2025-11-22T22:26:14 IST" duration-ms="4174" status="PASS">
+        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T23:07:27 IST" name="youtubeLaunchTest" finished-at="2025-11-22T23:07:29 IST" duration-ms="2279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- youtubeLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:14 IST" name="tearDown" finished-at="2025-11-22T22:26:14 IST" duration-ms="366" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T23:07:32 IST" name="tearDown" finished-at="2025-11-22T23:07:34 IST" duration-ms="1346" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.YoutubeTest -->
       <class name="com.tests.MyntraTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5851" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T23:07:02 IST" name="launchBrowser" finished-at="2025-11-22T23:07:11 IST" duration-ms="8868" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,17 +305,17 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:26:00 IST" name="myntraLaunchTest" finished-at="2025-11-22T22:26:08 IST" duration-ms="7732" status="PASS">
+        <test-method signature="myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T23:07:11 IST" name="myntraLaunchTest" finished-at="2025-11-22T23:07:13 IST" duration-ms="2630" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myntraLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:26:09 IST" name="tearDown" finished-at="2025-11-22T22:26:09 IST" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T23:07:19 IST" name="tearDown" finished-at="2025-11-22T23:07:21 IST" duration-ms="1350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.MyntraTest -->
       <class name="com.tests.GoogleTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5462" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T23:07:02 IST" name="launchBrowser" finished-at="2025-11-22T23:07:11 IST" duration-ms="9197" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -326,11 +326,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:26:00 IST" name="googleLaunchTest" finished-at="2025-11-22T22:26:03 IST" duration-ms="2640" status="PASS">
+        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T23:07:11 IST" name="googleLaunchTest" finished-at="2025-11-22T23:07:14 IST" duration-ms="2545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:26:03 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="2946" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T23:07:16 IST" name="tearDown" finished-at="2025-11-22T23:07:20 IST" duration-ms="4719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
