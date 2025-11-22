@@ -8,19 +8,21 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
+import com.listeners.EventListener;
 import com.utilities.DriverManager;
-import com.utilities.MyListerners;
 
-@Listeners(MyListerners.class)
+@Listeners(EventListener.class)
 public class BaseTest {
 	protected WebDriver driver;
 
 	@Parameters({ "browser" })
-	@BeforeClass(alwaysRun = true)
+	@BeforeMethod(alwaysRun = true)
 	public void launchBrowser(String browser) {
 
 //		WebDriverManager.edgedriver().setup();
@@ -46,7 +48,7 @@ public class BaseTest {
 
 	}
 
-	@AfterClass(alwaysRun = true)
+	@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		DriverManager.closeDriver();
 	}

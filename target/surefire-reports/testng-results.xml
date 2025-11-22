@@ -1,84 +1,340 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results retried="3" ignored="3" total="12" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-22T20:23:36 IST" name="Surefire suite" finished-at="2025-11-22T20:23:57 IST" duration-ms="21098">
+  <suite started-at="2025-11-22T22:25:54 IST" name="Surefire suite" finished-at="2025-11-22T22:26:25 IST" duration-ms="30521">
     <groups>
       <group name="ShopRegression">
-        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
-        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
-        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
+        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
+        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
+        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@e056f20]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
       </group> <!-- ShopRegression -->
       <group name="Regression">
-        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
-        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
-        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
+        <method signature="AmazonTest.amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" name="amazonLaunchTest" class="com.tests.AmazonTest"/>
+        <method signature="FacebookTest.facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@5a63f509]" name="facebookLaunchTest" class="com.tests.FacebookTest"/>
+        <method signature="FlipkartTest.flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" name="flipkartLaunchTest" class="com.tests.FlipkartTest"/>
+        <method signature="GoogleTest.googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" name="googleLaunchTest" class="com.tests.GoogleTest"/>
+        <method signature="MyntraTest.myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@e056f20]" name="myntraLaunchTest" class="com.tests.MyntraTest"/>
+        <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
       </group> <!-- Regression -->
+      <group name="SocialRegression">
+        <method signature="FacebookTest.facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@5a63f509]" name="facebookLaunchTest" class="com.tests.FacebookTest"/>
+        <method signature="GoogleTest.googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" name="googleLaunchTest" class="com.tests.GoogleTest"/>
+        <method signature="YoutubeTest.youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" name="youtubeLaunchTest" class="com.tests.YoutubeTest"/>
+      </group> <!-- SocialRegression -->
     </groups>
-    <test started-at="2025-11-22T20:23:36 IST" name="Surefire test" finished-at="2025-11-22T20:23:57 IST" duration-ms="21098">
+    <test started-at="2025-11-22T22:25:54 IST" name="Surefire test" finished-at="2025-11-22T22:26:25 IST" duration-ms="30521">
       <class name="com.tests.FlipkartTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:41 IST" duration-ms="4875" status="PASS">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5147" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:41 IST" name="flipkartLaunchTest" finished-at="2025-11-22T20:23:46 IST" duration-ms="4451" status="PASS">
+        <test-method signature="flipkartLaunchTest()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:26:00 IST" name="flipkartLaunchTest" finished-at="2025-11-22T22:26:03 IST" duration-ms="2798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkartLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FlipkartTest@3daa422a]" started-at="2025-11-22T20:23:46 IST" name="tearDown" finished-at="2025-11-22T20:23:50 IST" duration-ms="3871" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FlipkartTest@6e4784bc]" started-at="2025-11-22T22:26:04 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="1754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.FlipkartTest -->
-      <class name="com.tests.AmazonTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:53 IST" duration-ms="17009" status="PASS">
+      <class name="com.tests.FacebookTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5693" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:53 IST" name="amazonLaunchTest" finished-at="2025-11-22T20:23:56 IST" duration-ms="3004" status="PASS">
+        <test-method signature="facebookLaunchTest()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:26:00 IST" name="facebookLaunchTest" finished-at="2025-11-22T22:26:08 IST" duration-ms="7344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.FacebookTest@5a63f509]" started-at="2025-11-22T22:26:08 IST" name="tearDown" finished-at="2025-11-22T22:26:09 IST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.FacebookTest -->
+      <class name="com.tests.AmazonTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:00 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:05 IST" duration-ms="4255" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tests.AmazonTest.amazonLaunchTest(AmazonTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@15c43bd9]" started-at="2025-11-22T20:23:56 IST" name="tearDown" finished-at="2025-11-22T20:23:57 IST" duration-ms="1056" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:05 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="1522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:06 IST" name="launchBrowser" finished-at="2025-11-22T22:26:10 IST" duration-ms="3937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:10 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:14 IST" duration-ms="3642" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tests.AmazonTest.amazonLaunchTest(AmazonTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:14 IST" name="tearDown" finished-at="2025-11-22T22:26:14 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:14 IST" name="launchBrowser" finished-at="2025-11-22T22:26:16 IST" duration-ms="2392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:16 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:19 IST" duration-ms="3036" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tests.AmazonTest.amazonLaunchTest(AmazonTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:19 IST" name="tearDown" finished-at="2025-11-22T22:26:19 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:19 IST" name="launchBrowser" finished-at="2025-11-22T22:26:22 IST" duration-ms="2163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="amazonLaunchTest()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:22 IST" name="amazonLaunchTest" finished-at="2025-11-22T22:26:25 IST" duration-ms="2998" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.tests.AmazonTest.amazonLaunchTest(AmazonTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.AmazonTest@149e0f5d]" started-at="2025-11-22T22:26:25 IST" name="tearDown" finished-at="2025-11-22T22:26:25 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.AmazonTest -->
-      <class name="com.tests.MyntraTest">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:36 IST" name="launchBrowser" finished-at="2025-11-22T20:23:44 IST" duration-ms="7789" status="PASS">
+      <class name="com.tests.YoutubeTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:06 IST" name="launchBrowser" finished-at="2025-11-22T22:26:10 IST" duration-ms="3622" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:44 IST" name="myntraLaunchTest" finished-at="2025-11-22T20:23:50 IST" duration-ms="6027" status="PASS">
+        <test-method signature="youtubeLaunchTest()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:10 IST" name="youtubeLaunchTest" finished-at="2025-11-22T22:26:14 IST" duration-ms="4174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.YoutubeTest@4b0b0854]" started-at="2025-11-22T22:26:14 IST" name="tearDown" finished-at="2025-11-22T22:26:14 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.YoutubeTest -->
+      <class name="com.tests.MyntraTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="myntraLaunchTest()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:26:00 IST" name="myntraLaunchTest" finished-at="2025-11-22T22:26:08 IST" duration-ms="7732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myntraLaunchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyntraTest@1cbbffcd]" started-at="2025-11-22T20:23:50 IST" name="tearDown" finished-at="2025-11-22T20:23:52 IST" duration-ms="1982" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.MyntraTest@e056f20]" started-at="2025-11-22T22:26:09 IST" name="tearDown" finished-at="2025-11-22T22:26:09 IST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.tests.MyntraTest -->
+      <class name="com.tests.GoogleTest">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:25:55 IST" name="launchBrowser" finished-at="2025-11-22T22:26:00 IST" duration-ms="5462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="googleLaunchTest()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:26:00 IST" name="googleLaunchTest" finished-at="2025-11-22T22:26:03 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLaunchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.GoogleTest@34b7ac2f]" started-at="2025-11-22T22:26:03 IST" name="tearDown" finished-at="2025-11-22T22:26:06 IST" duration-ms="2946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.GoogleTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
